@@ -1,0 +1,73 @@
+﻿<html>
+     <head>
+        <title>Junkyard - Home</title>    
+        
+        <style type="text/css">
+			body 
+            {
+              margin: 0;
+              padding: 0;
+			  
+              background-image: url('Images/JunkyardBack.jpg');
+              background-size: cover;
+            }
+
+            @-webkit-keyframes JunkyardTextAnimation {
+              0% {
+                background-position: left bottom;
+              }
+              100% {
+                background-position: right bottom;
+              }
+            }
+            #MyHeaderTittle{
+               background-image: url('Images/NameEffect.jpg');
+                -webkit-text-fill-color: transparent;
+                   -moz-text-fill-color: transparent;
+                    -ms-text-fill-color: transparent;
+                     -o-text-fill-color: transparent;
+                        text-fill-color: transparent;
+                        
+              -webkit-background-clip: text;
+                 -moz-background-clip: text;
+                  -ms-background-clip: text;
+                   -o-background-clip: text;
+                      background-clip: text;
+                      
+             
+              -webkit-animation: JunkyardTextAnimation 50s linear infinite;
+                 -moz-animation: JunkyardTextAnimation 50s linear infinite;
+                  -ms-animation: JunkyardTextAnimation 50s linear infinite;
+                   -o-animation: JunkyardTextAnimation 50s linear infinite;
+                      animation: JunkyardTextAnimation 50s linear infinite;
+              
+              -webkit-text-stroke: 2px Whitesmoke;
+                 -moz-text-stroke: 2px Whitesmoke;
+                  -ms-text-stroke: 2px Whitesmoke;
+                   -o-text-stroke: 2px Whitesmoke;
+                      text-stroke: 2px Whitesmoke;
+              
+              position:absolute;
+              margin:auto;
+              width: 100%;
+              top:-2%;
+              font-size:18vw;
+              font-family:Arial;
+            }
+            #MyHomeHeaderTittleDiv
+            {
+                background-color:rgba(0,0,0,0.4);
+                height:100%;
+                width:100%;
+                text-align:center;
+            }
+            
+		</style>
+        
+    </head>
+    <body>
+        <div id="MyHomeHeaderTittleDiv">
+            <p id="MyHeaderTittle">JunkYard</p>
+        </div>
+    </body>
+ </html>
